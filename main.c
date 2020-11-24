@@ -45,8 +45,8 @@ int efetuarLogin(inputLogin, inputSenha)
 
     if(strcmp(inputLogin, login) == 0 && strcmp(inputSenha, senha) == 0)
     {
-        printf("Senha bateu");
 
+        system("cls"); //Limpar a tela
         //LOGIN REALIZADO COM SUCESSO
         return 1;
     }
@@ -163,6 +163,7 @@ void cadastrarPaciente(){
     scanf("%d", &cod_paciente[linha]);
 
     printf("Digite o nome do paciente: ");
+    //gets(nome[linha]);
     scanf("%s", nome[linha]);
 
     printf("Digite o email do paciente: ");

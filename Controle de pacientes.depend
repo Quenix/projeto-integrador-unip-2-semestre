@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1606251381 source:c:\users\leona\documents\code\projeto-integrador-unip-2-semestre\main.c
+	<stdio.h>
+	<stdlib.h>
+
