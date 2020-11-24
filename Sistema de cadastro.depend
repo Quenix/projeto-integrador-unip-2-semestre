@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1606173005 source:c:\users\leona\desktop\pim\sistema de cadastro\main.c
-	<stdio.h>
-	<string.h>
-	<stdlib.h>
-	<ctype.h>
-
